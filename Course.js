@@ -146,11 +146,62 @@ console.log(salarioDividir);
 var nombre = "Carlos";
 var apellido = 'Orlando';
 
+//Escapar comillas en cadenas
+var texto = "Este es un texto que tiene \"comillas\"";
+console.log(texto);
+
+//cadena de caracteres con comillas simples
+var miMeta;
+miMeta = 'Aprender a programar con "freecodeCamp"';
+console.log(miMeta);
 
 
+/*Secuencias de escape
+    \' Comilla simple
+    \" Comilla doble
+    \\ Barra invertida
+    \n Línea nueva
+    \r Retorno de carro
+    \t Tabulación
+    \b Retroceso
+    \f Salto de página
+*/
 
 
+console.log("Estoy aprendiendo  \"Javascript\"");
+console.log("Esta es una barra invertidad \\");
+console.log("Este es un salto de línea \n con javascript");
+console.log("Esta es una tabulación \t");
 
+//Concatenar cadenas de caracteres
+var nombreCompleto = "Alan" + " Turing";
+console.log(nombreCompleto);
+
+var verbo = "programar";
+console.log("Estoy aprendiendo a " + verbo);
+
+var mensajeCompleto = "Estoy aprendiendo a programar";
+var parteFinal = " con freeCodeCamp";
+console.log(mensajeCompleto);
+mensajeCompleto += parteFinal;
+console.log(mensajeCompleto);
+
+//Longitud de una cadena de caracteres
+var longitudCadena = "A B";
+console.log(longitudCadena.length);
+
+var miCadena = "Estoy aprendiendo a programar Javascript";
+console.log(miCadena.length);
+
+//Notación de corchetes
+var lenguajeDeProgramacion = "Javascript";
+
+/*
+Cadena: J a v a s c r i p t
+Indices 0 1 2 3 4 5 6 7 8 9
+*/ 
+
+console.log(lenguajeDeProgramacion[0]);
 
 
 
